@@ -13,8 +13,10 @@
   - `geoip:cloudfront`
   - `geoip:facebook`
   - `geoip:fastly`
+  - `geoip:google`
   - `geoip:netflix`
   - `geoip:telegram`
+  - `geoip:twitter`
 
 > 希望定制 `geoip.dat` 文件？查看仓库 [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)。
 
@@ -219,7 +221,7 @@ steamstatic.com.8686c.com @cn
     {
       "type": "field",
       "outboundTag": "Proxy",
-      "domain": ["geosite:tld-!cn", "geosite:gfw", "geosite:greatfire"]
+      "domain": ["geosite:gfw", "geosite:greatfire"]
     },
     {
       "type": "field",
@@ -434,6 +436,11 @@ steamstatic.com.8686c.com @cn
   }
 }
 ```
+
+## 激赏 | Donation
+
+- **比特币（BTC）bech32 地址**：bc1qfe4nxcanet4w4ph8pf6qqyf263y68vw26nv9j9
+- **比特币（BTC）地址**：3PRyneb1D7jFFBakAaJiCRSsxsXAtMr7LN
 
 ## 使用本项目的项目
 
